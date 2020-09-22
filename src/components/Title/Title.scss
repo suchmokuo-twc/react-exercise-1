@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title > h1 {
+  margin: $base-margin 0;
+
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: $font-family;
+}
+
+.title > h2 {
+  text-transform: uppercase;
+}
